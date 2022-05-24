@@ -1,0 +1,43 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    place-content: center;
+}
+
+.galeria {
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+}
+
+.lista {
+    height: 100%;
+    position: relative;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.flechas {
+    backface-visibility: 0.3;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-style: none;
+}
